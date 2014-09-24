@@ -89,7 +89,8 @@
 
 - (void)viewWillDisappear:(BOOL)animated {
     
-    [self.view.window removeGestureRecognizer:tapBehindGesture];
+    UIView *view = [[self.viewControllers lastObject] view];
+    [view removeGestureRecognizer:tapBehindGesture];
 }
 
 - (void)tapBehindDetected:(UITapGestureRecognizer *)sender
