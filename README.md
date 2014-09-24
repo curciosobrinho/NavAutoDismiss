@@ -16,7 +16,9 @@ I just thought I could make it more generic and easier to use.
 How to use it:
 -----------
 
-    Import the .h file use 
+    Copy BOTH files to your project
+    
+    Import the .h file
     #import "NavDismissViewController.h"
     
     //Instanciate your view controller (the view you want to present)
