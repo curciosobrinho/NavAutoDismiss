@@ -17,8 +17,8 @@ How to use it:
 Copy both files to your project
 
 
-//Import the .h file
-#import "NavDismissViewController.h"
+//Import the .h file use 
+// #import "NavDismissViewController.h"
 
 
 //Instanciate your view controller (the view you want to present)
