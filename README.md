@@ -1,7 +1,7 @@
 NavAutoDismiss
 ==============
 
-Really nice and easy way to dismiss any modal on iPads.
+Really nice and easy way to dismiss any modal on iPads (tap outside the viewcontroller to dismiss the modal).
 
 IMPORTANT:
 This implementation is just a navigation implementation of 
