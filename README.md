@@ -17,7 +17,7 @@ How to use it:
 Copy both files to your project
 
 
-Import the .h file
+//Import the .h file
 #import "NavDismissViewController.h"
 
 
