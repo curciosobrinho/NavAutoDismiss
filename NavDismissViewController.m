@@ -74,6 +74,8 @@
 
 -(void) viewDidAppear:(BOOL)animated {
     
+    [super viewDidAppear:animated];
+    
     if(!tapBehindGesture) {
         tapBehindGesture = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapBehindDetected:)];
         [tapBehindGesture setNumberOfTapsRequired:1];
@@ -88,6 +90,8 @@
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
+    
+    [super viewWillDisappear:animated];
     
     UIView *view = [[self.viewControllers lastObject] view];
     [view removeGestureRecognizer:tapBehindGesture];
